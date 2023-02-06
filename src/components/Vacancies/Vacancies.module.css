@@ -1,0 +1,100 @@
+.section {
+  margin-top: 191px;
+}
+
+.title {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #103778;
+  text-align: center;
+  margin-bottom: 81px;
+}
+
+.cardsSection {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 423px;
+  height: 338px;
+  background: #f8f8f8;
+  border: 2px solid #ececec;
+  border-radius: 50px;
+  margin: 0 41px 41px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.card:hover {
+  background: rgba(143, 180, 241, 0.1);
+  border: 2px solid #103778;
+}
+
+.icon {
+  width: 110px;
+  height: 72px;
+  border: 2px solid #424242;
+  border-radius: 33.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 80.79%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration-line: underline;
+  color: #103778;
+}
+
+.cardTitle {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 80.79%;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #424242;
+  margin-top: 27px;
+}
+
+.cardDescription {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #424242;
+  margin-top: 62px;
+}
+
+.cardHovered {
+  width: 423px;
+  height: 338px;
+  left: 52px;
+  top: 1128px;
+  background: rgba(143, 180, 241, 0.1);
+  border: 2px solid #103778;
+  border-radius: 50px;
+  margin: 0 41px 41px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.backgroundImage {
+  position: relative;
+  width: 1800px;
+  height: 765px;
+  padding-top: 54px;
+  margin: auto;
+}
+
+.mainLogo {
+  position: absolute;
+  top: 113px;
+  left: 642px;
+}
+
+.accountLogo {
+  position: absolute;
+  top: 96px;
+  right: 28px;
+  cursor: pointer;
+}
+
+.buttons {
+  position: absolute;
+  bottom: -50px;
+  left: 228px;
+}
+
+.searchJob {
+  width: 650px;
+  height: 100px;
+  margin-right: 44px;
+  background: #f7faff;
+  border: 2px solid #103778;
+  border-radius: 73px;
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  color: #103778;
+  cursor: pointer;
+}
+
+.searchWorker {
+  width: 650px;
+  height: 100px;
+  background: #fdfdfd;
+  border: 2px solid #ececec;
+  border-radius: 73px;
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  color: #424242;
+  cursor: pointer;
+}

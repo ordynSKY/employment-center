@@ -1,0 +1,46 @@
+.bgColor {
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 56px 0 74px 52px;
+}
+
+.footer,
+a {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 80.79%;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin: 0 80px 50px 0;
+  text-decoration: none;
+}
+
+.footerNum,
+a {
+  font-family: "DniproCity";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 80.79%;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.chat {
+  position: absolute;
+  right: 68px;
+  bottom: 268px;
+  cursor: pointer;
+}

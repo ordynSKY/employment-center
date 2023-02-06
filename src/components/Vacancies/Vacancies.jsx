@@ -8,7 +8,7 @@ const Vacancies = () => {
         <img src="/Vector.svg" alt="fire" style={{ marginLeft: "25px" }} />
       </div>
       <div className={styles.cardsSection}>
-        <article className={styles.card}>
+        <article className={styles.cardHovered}>
           <div className={styles.icon}>
             <img src="/icons/barista.png" alt="barista" />
           </div>

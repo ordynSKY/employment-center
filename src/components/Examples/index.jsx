@@ -12,6 +12,11 @@ const Examples = () => {
       <div className={styles.cardsSection}>
         <article className={styles.docHovered}>
           <div>
+            <img
+              src="/images/docHovered.png"
+              alt="blog"
+              className={styles.hovered}
+            />
             <a href={url} download className={styles.link}>
               <img src="/svg/download.svg" alt="designer" />
             </a>
@@ -19,17 +24,26 @@ const Examples = () => {
         </article>
         <article className={styles.card}>
           <div>
-            <img src="/images/doc1.png" alt="blog" />
+            <img src="/images/doc1.png" alt="blog" className={styles.hovered} />
+            <a href={url} download className={styles.link}>
+              <img src="/svg/download.svg" alt="designer" />
+            </a>
           </div>
         </article>
         <article className={styles.card}>
           <div>
-            <img src="/images/doc2.png" alt="blog" />
+            <img src="/images/doc2.png" alt="blog" className={styles.hovered} />
+            <a href={url} download className={styles.link}>
+              <img src="/svg/download.svg" alt="designer" />
+            </a>
           </div>
         </article>
         <article className={styles.card}>
           <div>
-            <img src="/images/doc3.png" alt="blog" />
+            <img src="/images/doc3.png" alt="blog" className={styles.hovered} />
+            <a href={url} download className={styles.link}>
+              <img src="/svg/download.svg" alt="designer" />
+            </a>
           </div>
         </article>
       </div>

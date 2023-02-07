@@ -62,7 +62,7 @@ const Vacancies = () => {
           </div>
           <div className={styles.cardDescription}>150 пропозицій</div>
         </article>
-        <article className={styles.cardHovered}>
+        <article className={styles.allVacancies}>
           <div className={styles.more}>Всі вакансії</div>
         </article>
       </div>

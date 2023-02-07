@@ -98,3 +98,18 @@
   flex-direction: column;
   cursor: pointer;
 }
+
+.allVacancies {
+  width: 423px;
+  height: 338px;
+  left: 52px;
+  top: 1128px;
+  background: rgba(143, 180, 241, 0.1);
+  border-radius: 50px;
+  margin: 0 41px 41px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}

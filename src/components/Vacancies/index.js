@@ -5,7 +5,7 @@ const Vacancies = () => {
     <div className={styles.section}>
       <div className={styles.title}>
         Гарячі вакансії
-        <img src="/Vector.svg" alt="fire" style={{ marginLeft: "25px" }} />
+        <img src="/svg/Vector.svg" alt="fire" style={{ marginLeft: 25 }} />
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.cardHovered}>

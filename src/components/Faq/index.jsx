@@ -4,7 +4,7 @@ const Blog = () => (
   <div className={styles.section}>
     <div className={styles.title}>
       Часті запитання
-      <img src="/faq.svg" alt="fire" style={{ marginLeft: "25px" }} />
+      <img src="/svg/faq.svg" alt="fire" style={{ marginLeft: 25 }} />
     </div>
     <div className={styles.cardsSection}>
       <article className={styles.card}>
@@ -26,12 +26,12 @@ const Blog = () => (
         <div
           style={{
             position: "absolute",
-            right: "45px",
-            top: "175px",
+            right: 45,
+            top: 175,
             cursor: "pointer",
           }}
         >
-          <img src="/minus.svg" alt="fire" style={{ marginLeft: "25px" }} />
+          <img src="/svg/minus.svg" alt="fire" style={{ marginLeft: 25 }} />
         </div>
       </article>
       <article className={styles.cardClosed}>
@@ -40,9 +40,9 @@ const Blog = () => (
           війни»
         </div>
         <img
-          src="/plus.svg"
+          src="/svg/plus.svg"
           alt="fire"
-          style={{ marginRight: "45px", cursor: "pointer" }}
+          style={{ marginRight: 45, cursor: "pointer" }}
         />
       </article>
       <article className={styles.cardClosed}>
@@ -50,9 +50,9 @@ const Blog = () => (
           Як заповнити анкети на перевипуск?
         </div>
         <img
-          src="/plus.svg"
+          src="/svg/plus.svg"
           alt="fire"
-          style={{ marginRight: "45px", cursor: "pointer" }}
+          style={{ marginRight: 45, cursor: "pointer" }}
         />
       </article>
       <article className={styles.cardClosed}>
@@ -60,9 +60,9 @@ const Blog = () => (
           Коли закінчиться війна і можна працювати нормально?
         </div>
         <img
-          src="/plus.svg"
+          src="/svg/plus.svg"
           alt="fire"
-          style={{ marginRight: "45px", cursor: "pointer" }}
+          style={{ marginRight: 45, cursor: "pointer" }}
         />
       </article>
     </div>

@@ -1,16 +1,21 @@
+import { useState } from "react";
 import "./App.css";
-import Blog from "./components/Blog/Blog.jsx";
-import Examples from "./components/Examples/Examples.jsx";
-import Faq from "./components/Faq/Faq.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Header from "./components/Header/Header.jsx";
-import Vacancies from "./components/Vacancies/Vacancies.jsx";
+import Blog from "./components/Blog/index.jsx";
+import Examples from "./components/Examples/index.jsx";
+import Faq from "./components/Faq/index.jsx";
+import Footer from "./components/Footer/index.jsx";
+import Header from "./components/Header/index.jsx";
+import Modal from "./components/Modal/index.jsx";
+import Vacancies from "./components/Vacancies/index";
 
 function App() {
+  const [modalActive, setModalActive] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   return (
     <div>
       <header>
-        <Header />
+        <Header setActive={setModalActive} />
       </header>
       <section>
         <Vacancies />
@@ -27,6 +32,14 @@ function App() {
       <footer>
         <Footer />
       </footer>
+      <Modal
+        active={modalActive}
+        setActive={setModalActive}
+        email={email}
+        setEmail={setEmail}
+        password={password}
+        setPassword={setPassword}
+      />
     </div>
   );
 }

@@ -1,31 +1,35 @@
 import styles from "./Examples.module.css";
 
 const Examples = () => {
+  const url = "https://ednipro.dp.ua/Шпалери.zip";
+
   return (
     <div className={styles.section}>
       <div className={styles.title}>
         Зразки документів
-        <img src="/example.svg" alt="fire" style={{ marginLeft: "25px" }} />
+        <img src="/svg/example.svg" alt="fire" style={{ marginLeft: 25 }} />
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.docHovered}>
           <div>
-            <img src="/download.svg" alt="designer" />
+            <a href={url} download className={styles.link}>
+              <img src="/svg/download.svg" alt="designer" />
+            </a>
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles}>
-            <img src="/doc1.png" alt="blog" />
+          <div>
+            <img src="/images/doc1.png" alt="blog" />
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles}>
-            <img src="/doc2.png" alt="blog" />
+          <div>
+            <img src="/images/doc2.png" alt="blog" />
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles}>
-            <img src="/doc3.png" alt="blog" />
+          <div>
+            <img src="/images/doc3.png" alt="blog" />
           </div>
         </article>
       </div>

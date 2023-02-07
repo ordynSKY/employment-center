@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div className={styles.bgColor}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="header" style={{ paddingRight: "116px" }} />
+        <img
+          src="/images/logo.png"
+          alt="header"
+          style={{ paddingRight: 116 }}
+        />
         <div>
           <div style={{ display: "flex" }}>
             <a href="" className={styles.footer}>
@@ -25,7 +29,7 @@ const Footer = () => {
             </a>
           </div>
           <div style={{ display: "flex" }}>
-            <img src="/phone.svg" alt="fire" style={{ marginRight: "30px" }} />
+            <img src="/svg/phone.svg" alt="fire" style={{ marginRight: 30 }} />
 
             <a href="tel:+3809878526" className={styles.footerNum}>
               +380 98 78 526
@@ -36,7 +40,7 @@ const Footer = () => {
             <a href="tel:+3809878543" className={styles.footerNum}>
               +380 98 78 543
             </a>
-            <img src="/fb.svg" alt="fire" style={{ marginRight: "30px" }} />
+            <img src="/svg/fb.svg" alt="fire" style={{ marginRight: 30 }} />
             <a
               href="https://www.facebook.com/centr.zan"
               className={styles.footerNum}
@@ -45,7 +49,7 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.chat}>
-            <img src="/chat.svg" alt="header" />
+            <img src="/svg/chat.svg" alt="header" />
           </div>
         </div>
       </div>

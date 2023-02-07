@@ -1,15 +1,19 @@
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = ({ setActive }) => {
   return (
     <div>
       <div className={styles.backgroundImage}>
-        <img src="/headerbg.png" alt="header" />
+        <img src="/images/headerbg.png" alt="header" />
         <div className={styles.mainLogo}>
-          <img src="/mainlogo.png" alt="header" />
+          <img src="/images/mainlogo.png" alt="header" />
         </div>
         <div className={styles.accountLogo}>
-          <img src="/Vector.png" alt="header" />
+          <img
+            src="/svg/Vector.png"
+            alt="header"
+            onClick={() => setActive(true)}
+          />
         </div>
         <div className={styles.buttons}>
           <button className={styles.searchJob}>Я шукаю роботу</button>

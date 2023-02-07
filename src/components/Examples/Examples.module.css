@@ -67,5 +67,9 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  background-image: url("/public/docHovered.png");
+  background-image: url("/public/images/docHovered.png");
+}
+
+.link {
+  margin-right: 0;
 }

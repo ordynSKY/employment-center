@@ -1,9 +1,29 @@
-.backgroundImage {
+.background {
   position: relative;
-  width: 1800px;
+  max-width: 100%;
+  width: 100%;
   height: 765px;
   padding-top: 54px;
   margin: auto;
+}
+
+.backgroundImage {
+  margin-left: 50px;
+}
+
+@media (max-width: 1440px) {
+  .backgroundImage,
+  .background {
+    width: 1000px;
+    height: 500px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .background {
+    padding-top: 10px;
+  }
 }
 
 .mainLogo {
@@ -12,17 +32,43 @@
   left: 642px;
 }
 
+@media (max-width: 1440px) {
+  .logo {
+    position: absolute;
+    top: -30px;
+    left: -255px;
+    width: 250px;
+    height: 85px;
+  }
+  .svg {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: -85px;
+    top: -15px;
+  }
+}
+
 .accountLogo {
   position: absolute;
   top: 96px;
-  right: 28px;
+  right: 100px;
   cursor: pointer;
 }
 
 .buttons {
   position: absolute;
   bottom: -50px;
-  left: 228px;
+  left: 270px;
+}
+
+@media (max-width: 1440px) {
+  .buttons {
+    position: absolute;
+    bottom: -35px;
+    left: 13%;
+    display: flex;
+  }
 }
 
 .searchJob {
@@ -56,4 +102,17 @@
   letter-spacing: 0.5px;
   color: #424242;
   cursor: pointer;
+}
+@media (max-width: 1440px) {
+  .searchJob {
+    width: 350px;
+    height: 75px;
+    margin-bottom: 35px;
+    font-size: 30px;
+  }
+  .searchWorker {
+    width: 350px;
+    height: 75px;
+    font-size: 30px;
+  }
 }

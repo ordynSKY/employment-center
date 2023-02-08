@@ -8,6 +8,7 @@ const Footer = () => {
           src="/images/logo.png"
           alt="header"
           style={{ paddingRight: 116 }}
+          className={styles.logoFooter}
         />
         <div>
           <div style={{ display: "flex" }}>
@@ -29,7 +30,7 @@ const Footer = () => {
             </a>
           </div>
           <div style={{ display: "flex" }}>
-            <img src="/svg/phone.svg" alt="fire" style={{ marginRight: 30 }} />
+            <img src="/svg/phone.svg" alt="fire" className={styles.svg} />
 
             <a href="tel:+3809878526" className={styles.footerNum}>
               +380 98 78 526
@@ -40,7 +41,7 @@ const Footer = () => {
             <a href="tel:+3809878543" className={styles.footerNum}>
               +380 98 78 543
             </a>
-            <img src="/svg/fb.svg" alt="fire" style={{ marginRight: 30 }} />
+            <img src="/svg/fb.svg" alt="fire" className={styles.svg} />
             <a
               href="https://www.facebook.com/centr.zan"
               className={styles.footerNum}
@@ -49,7 +50,11 @@ const Footer = () => {
             </a>
           </div>
           <div className={styles.chat}>
-            <img src="/svg/chat.svg" alt="header" />
+            <img
+              src="/svg/chat.svg"
+              alt="header"
+              className={styles.chatImage}
+            />
           </div>
         </div>
       </div>

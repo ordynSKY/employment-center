@@ -21,7 +21,9 @@ const Examples = () => {
               <img src="/svg/download.svg" alt="designer" />
             </a>
           </div>
+          <div className={styles.cardTitle}>Стандартне резюме</div>
         </article>
+
         <article className={styles.card}>
           <div>
             <img src="/images/doc1.png" alt="blog" className={styles.hovered} />
@@ -29,6 +31,7 @@ const Examples = () => {
               <img src="/svg/download.svg" alt="designer" />
             </a>
           </div>
+          <div className={styles.cardTitle}>Заява на звільнення</div>
         </article>
         <article className={styles.card}>
           <div>
@@ -37,6 +40,7 @@ const Examples = () => {
               <img src="/svg/download.svg" alt="designer" />
             </a>
           </div>
+          <div className={styles.cardTitle}>Витяг з реєстру</div>
         </article>
         <article className={styles.card}>
           <div>
@@ -45,14 +49,7 @@ const Examples = () => {
               <img src="/svg/download.svg" alt="designer" />
             </a>
           </div>
-        </article>
-      </div>
-      <div className={styles.cardsSection}>
-        <article className={styles.cardTitle}>Стандартне резюме</article>
-        <article className={styles.cardTitle}>Заява на звільнення</article>
-        <article className={styles.cardTitle}>Витяг з реєстру</article>
-        <article className={styles.cardTitle}>
-          Заява на прийом на роботу
+          <div className={styles.cardTitle}>Заява на прийом на роботу</div>
         </article>
       </div>
       <div className={styles.more}>Всі документи</div>

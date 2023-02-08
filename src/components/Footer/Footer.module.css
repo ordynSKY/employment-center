@@ -23,6 +23,13 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 1440px) {
+  .footer,
+  a {
+    font-size: 15px;
+  }
+}
+
 .footerNum,
 a {
   font-family: "DniproCity";
@@ -38,9 +45,41 @@ a {
   margin-bottom: 0;
 }
 
+.svg {
+  margin-right: 30px;
+}
+
 .chat {
   position: absolute;
   right: 68px;
   bottom: 268px;
   cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .footer,
+  .footerNum,
+  a {
+    font-size: 15px;
+  }
+
+  .svg {
+    width: 25px;
+    height: 25px;
+  }
+  .chatImage {
+    width: 60px;
+    height: 55px;
+  }
+  .logoFooter {
+    width: 150px;
+    height: 85px;
+    object-fit: contain;
+  }
+  .chat {
+    position: absolute;
+    right: 68px;
+    bottom: 200px;
+    cursor: pointer;
+  }
 }

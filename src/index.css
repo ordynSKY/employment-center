@@ -17,6 +17,15 @@ body {
   width: 1920px;
 }
 
+@media (max-width: 1440px) {
+  body {
+    width: 1320px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

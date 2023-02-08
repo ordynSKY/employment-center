@@ -14,9 +14,25 @@
   margin-bottom: 140px;
 }
 
+@media (max-width: 1440px) {
+  .title {
+    font-size: 35px;
+    margin-bottom: 51px;
+  }
+  .section {
+    margin-top: 51px;
+  }
+}
+
 .cardsSection {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 1440px) {
+  .hovered {
+    flex-wrap: wrap;
+  }
 }
 
 .card {
@@ -31,12 +47,36 @@
   cursor: pointer;
 }
 
+@media (max-width: 1440px) {
+  .card {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 70px;
+  }
+}
+
 .link {
   position: absolute;
   top: 45%;
   left: 45%;
   margin-right: 0;
   display: none;
+}
+
+@media (max-width: 1440px) {
+  .link {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
 }
 
 .card:hover .link {
@@ -74,6 +114,7 @@
   line-height: 80.79%;
   letter-spacing: 0.5px;
   color: #103778;
+  margin-top: 20px;
 }
 
 .docHovered {
@@ -86,7 +127,14 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  background-image: url("/public/images/docHovered.png");
+}
+
+@media (max-width: 1440px) {
+  .docHovered {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 70px;
+  }
 }
 
 .docHovered:hover .hovered {
@@ -96,4 +144,30 @@
 
 .docHovered:hover .link {
   display: block;
+}
+
+@media (max-width: 1440px) {
+  .hovered {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+  }
+
+  .cardTitle,
+  .more {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .docHovered {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 70px;
+  }
+  .hovered {
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+  }
 }

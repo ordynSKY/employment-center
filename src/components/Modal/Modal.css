@@ -81,3 +81,22 @@
   border-radius: 73px;
   cursor: pointer;
 }
+
+@media (max-width: 1440px) {
+  .modal__content {
+    width: 700px;
+    height: 220px;
+    margin-bottom: 70px;
+  }
+  .title {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .email,
+  .password,
+  .button__register {
+    font-size: 10px;
+    width: 200px;
+    height: 30px;
+  }
+}

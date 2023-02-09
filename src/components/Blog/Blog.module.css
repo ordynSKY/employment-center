@@ -24,6 +24,29 @@
   }
 }
 
+@media (max-width: 425px) {
+  .section {
+    margin-top: 40px;
+    width: 400px;
+  }
+}
+
+.titleSvg {
+  margin-left: 25px;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .titleSvg {
+    width: 13px;
+    height: 16px;
+    margin-left: 10px;
+  }
+}
+
 .cardsSection {
   display: flex;
   justify-content: center;
@@ -32,6 +55,12 @@
 @media (max-width: 1440px) {
   .cardsSection {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .cardsSection {
+    display: grid;
   }
 }
 
@@ -60,6 +89,15 @@
     width: 300px;
     height: 150px;
     object-fit: contain;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    margin: 0;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
@@ -127,5 +165,16 @@
   .arrows {
     width: 30px;
     height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .more {
+    display: block;
+    margin: 0;
+    width: 400px;
+  }
+  .arrows {
+    display: none;
   }
 }

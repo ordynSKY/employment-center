@@ -10,7 +10,7 @@ const Faq = () => {
     <div className={styles.section}>
       <div className={styles.title}>
         Часті запитання
-        <img src="/svg/faq.svg" alt="fire" style={{ marginLeft: 25 }} />
+        <img src="/svg/faq.svg" alt="fire" className={styles.titleSvg} />
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.card}>
@@ -19,7 +19,7 @@ const Faq = () => {
               22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
               час війни»
             </div>
-            {showDescription && (
+            {showDescription === 0 && (
               <div className={styles.cardDescription}>{description}</div>
             )}
           </div>
@@ -28,56 +28,64 @@ const Faq = () => {
               src="/svg/minus.svg"
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(false)}
+              onClick={() => setShowDescription(0)}
             />
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles.cardTitle}>
-            22 грудня пройде безкоштовний вебінар «Як створювати бізнес під час
-            війни»
+          <div>
+            <div className={styles.cardTitle}>
+              22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
+              час війни»
+            </div>
+            {showDescription === 1 && (
+              <div className={styles.cardDescription}>{description}</div>
+            )}
           </div>
-          {showDescription && (
-            <div className={styles.cardDescription}>{description}</div>
-          )}
           <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(false)}
+              onClick={() => setShowDescription(1)}
             />
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles.cardTitle}>
-            Як заповнити анкети на перевипуск?
+          <div>
+            <div className={styles.cardTitle}>
+              22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
+              час війни»
+            </div>
+            {showDescription === 2 && (
+              <div className={styles.cardDescription}>{description}</div>
+            )}
           </div>
-          {showDescription && (
-            <div className={styles.cardDescription}>{description}</div>
-          )}
           <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(false)}
+              onClick={() => setShowDescription(2)}
             />
           </div>
         </article>
         <article className={styles.card}>
-          <div className={styles.cardTitle}>
-            Коли закінчиться війна і можна працювати нормально?
+          <div>
+            <div className={styles.cardTitle}>
+              22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
+              час війни»
+            </div>
+            {showDescription === 3 && (
+              <div className={styles.cardDescription}>{description}</div>
+            )}
           </div>
-          {showDescription && (
-            <div className={styles.cardDescription}>{description}</div>
-          )}
           <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(false)}
+              onClick={() => setShowDescription(3)}
             />
           </div>
         </article>

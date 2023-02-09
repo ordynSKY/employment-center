@@ -24,9 +24,41 @@
   }
 }
 
+@media (max-width: 425px) {
+  .section {
+    margin-top: 40px;
+  }
+}
+
+.titleSvg {
+  margin-left: 25px;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .section {
+    margin-top: 25px;
+  }
+
+  .titleSvg {
+    width: 13px;
+    height: 16px;
+    margin-left: 10px;
+  }
+}
+
 .cardsSection {
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 425px) {
+  .cardsSection {
+    display: grid;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -173,5 +205,11 @@
     width: 250px;
     height: 350px;
     object-fit: contain;
+  }
+}
+
+@media (max-width: 425px) {
+  .more {
+    margin-top: 0;
   }
 }

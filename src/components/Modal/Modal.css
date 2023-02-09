@@ -100,3 +100,27 @@
     height: 40px;
   }
 }
+
+@media (max-width: 425px) {
+  .modal {
+    width: 350px;
+    height: 120px;
+    margin-bottom: 70px;
+  }
+  .modal__content {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 70px;
+  }
+  .title {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .email,
+  .password,
+  .button__register {
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+  }
+}

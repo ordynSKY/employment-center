@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-width: 425px) {
+  .section {
+    margin-top: 40px;
+  }
+}
+
 .title {
   font-family: "DniproCity";
   font-style: normal;
@@ -27,6 +33,22 @@
   }
 }
 
+.titleSvg {
+  margin-left: 25px;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .titleSvg {
+    width: 13px;
+    height: 16px;
+    margin-left: 10px;
+  }
+}
+
 .cardsSection {
   display: flex;
   justify-content: center;
@@ -35,6 +57,12 @@
 @media (max-width: 1440px) {
   .cardsSection {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .cardsSection {
+    display: grid;
   }
 }
 
@@ -59,6 +87,13 @@
   }
   .card:last-child {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    margin: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -89,6 +124,18 @@
   }
 }
 
+/* @media (max-width: 425px) {
+  .icon {
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+  }
+  .svg {
+    width: 12px;
+    height: 12px;
+  }
+} */
+
 .more {
   font-family: "DniproCity";
   font-style: normal;
@@ -116,11 +163,22 @@
 @media (max-width: 1440px) {
   .cardTitle {
     font-size: 20px;
+    padding: 0 5px 0 5px;
   }
   .more {
     font-size: 20px;
   }
 }
+
+/* @media (max-width: 425px) {
+  .cardTitle,
+  .more {
+    font-size: 10px;
+  }
+  .cardTitle {
+    margin-top: 5px;
+  }
+} */
 
 .cardDescription {
   font-family: "DniproCity";
@@ -140,6 +198,13 @@
     margin-top: 30px;
   }
 }
+
+/* @media (max-width: 425px) {
+  .cardDescription {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+} */
 
 .cardHovered {
   width: 423px;
@@ -161,6 +226,13 @@
   .cardHovered {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cardHovered {
+    margin: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -186,3 +258,11 @@
     margin-right: 0;
   }
 }
+
+/* @media (max-width: 425px) {
+  .allVacancies {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+  }
+} */

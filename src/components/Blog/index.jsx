@@ -5,7 +5,7 @@ const Blog = () => {
     <div className={styles.section}>
       <div className={styles.title}>
         Новини
-        <img src="/svg/blogvector.svg" alt="fire" style={{ marginLeft: 25 }} />
+        <img src="/svg/blogvector.svg" alt="fire" className={styles.titleSvg} />
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.card}>

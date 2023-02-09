@@ -7,7 +7,7 @@ const Examples = () => {
     <div className={styles.section}>
       <div className={styles.title}>
         Зразки документів
-        <img src="/svg/example.svg" alt="fire" style={{ marginLeft: 25 }} />
+        <img src="/svg/example.svg" alt="fire" className={styles.titleSvg} />
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.docHovered}>

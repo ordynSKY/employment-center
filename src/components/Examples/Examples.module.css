@@ -58,6 +58,7 @@
 @media (max-width: 425px) {
   .cardsSection {
     display: grid;
+    margin-left: 32px;
   }
 }
 
@@ -211,5 +212,10 @@
 @media (max-width: 425px) {
   .more {
     margin-top: 0;
+  }
+}
+@media (max-width: 425px) {
+  .docHovered {
+    margin-right: 0;
   }
 }

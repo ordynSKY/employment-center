@@ -6,14 +6,14 @@ import Faq from "./components/Faq/index.jsx";
 import Footer from "./components/Footer/index.jsx";
 import Header from "./components/Header/index.jsx";
 import Modal from "./components/Modal/index.jsx";
-import Vacancies from "./components/Vacancies/index";
+import Vacancies from "./components/Vacancies/index.jsx";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
-    <div>
+    <div className="main_container">
       <header>
         <Header setActive={setModalActive} />
       </header>

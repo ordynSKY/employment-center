@@ -25,10 +25,12 @@ const Faq = () => {
           </div>
           <div className={styles.svg}>
             <img
-              src="/svg/minus.svg"
+              src={showDescription === 0 ? "/svg/minus.svg" : "/svg/plus.svg"}
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(0)}
+              onClick={() =>
+                setShowDescription(showDescription === 0 ? null : 0)
+              }
             />
           </div>
         </article>
@@ -44,10 +46,12 @@ const Faq = () => {
           </div>
           <div className={styles.svg}>
             <img
-              src="/svg/plus.svg"
+              src={showDescription === 1 ? "/svg/minus.svg" : "/svg/plus.svg"}
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(1)}
+              onClick={() =>
+                setShowDescription(showDescription === 1 ? null : 1)
+              }
             />
           </div>
         </article>
@@ -63,10 +67,12 @@ const Faq = () => {
           </div>
           <div className={styles.svg}>
             <img
-              src="/svg/plus.svg"
+              src={showDescription === 2 ? "/svg/minus.svg" : "/svg/plus.svg"}
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(2)}
+              onClick={() =>
+                setShowDescription(showDescription === 2 ? null : 2)
+              }
             />
           </div>
         </article>
@@ -82,10 +88,12 @@ const Faq = () => {
           </div>
           <div className={styles.svg}>
             <img
-              src="/svg/plus.svg"
+              src={showDescription === 3 ? "/svg/minus.svg" : "/svg/plus.svg"}
               alt="fire"
               className={styles.svg}
-              onClick={() => setShowDescription(3)}
+              onClick={() =>
+                setShowDescription(showDescription === 3 ? null : 3)
+              }
             />
           </div>
         </article>

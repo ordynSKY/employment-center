@@ -7,11 +7,10 @@ const Footer = () => {
         <img
           src="/images/logo.png"
           alt="header"
-          style={{ paddingRight: 116 }}
           className={styles.logoFooter}
         />
         <div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <a href="" className={styles.footer}>
               Створити вакансію
             </a>
@@ -29,7 +28,7 @@ const Footer = () => {
               Приклади документів
             </a>
           </div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <img src="/svg/phone.svg" alt="fire" className={styles.svg} />
 
             <a href="tel:+3809878526" className={styles.footerNum}>

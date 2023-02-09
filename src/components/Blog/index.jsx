@@ -1,6 +1,16 @@
 import styles from "./Blog.module.css";
 
 const Blog = () => {
+  let buttonRight = document.getElementById("slideRight");
+  let buttonLeft = document.getElementById("slideLeft");
+
+  buttonRight = function () {
+    document.querySelector(".cardsSection").scrollLeft += 200;
+  };
+  buttonLeft = function () {
+    document.querySelector(".cardsSection").scrollLeft -= 200;
+  };
+
   return (
     <div className={styles.section}>
       <div className={styles.title}>
@@ -51,9 +61,19 @@ const Blog = () => {
         </article>
       </div>
       <div className={styles.more}>
-        <img src="/svg/ArrowLeft.svg" alt="fire" className={styles.arrows} />
+        <img
+          src="/svg/ArrowLeft.svg"
+          alt="fire"
+          className={styles.arrows}
+          onClick={buttonLeft}
+        />
         Всі новини
-        <img src="/svg/ArrowRight.svg" alt="fire" className={styles.arrows} />
+        <img
+          src="/svg/ArrowRight.svg"
+          alt="fire"
+          className={styles.arrows}
+          onClick={buttonRight}
+        />
       </div>
     </div>
   );

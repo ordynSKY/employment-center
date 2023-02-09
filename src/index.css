@@ -14,12 +14,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1920px;
+  /* width: 1920px; */
+}
+
+.main_container {
+  max-width: 1920px;
+  margin: auto;
 }
 
 @media (max-width: 1440px) {
   body {
     width: 1260px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 750px;
     /* margin: 0; */
     display: flex;
     justify-content: center;

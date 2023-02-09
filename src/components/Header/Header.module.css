@@ -42,16 +42,16 @@
 }
 
 .mainLogo {
+  left: calc(50% - 180px);
   position: absolute;
-  top: 113px;
-  left: 642px;
+  top: 91px;
 }
 
 @media (max-width: 1440px) {
   .logo {
-    position: absolute;
-    top: -30px;
-    left: -255px;
+    /* position: absolute; */
+    /* top: -30px;
+    left: -255px; */
     width: 250px;
     height: 85px;
   }
@@ -62,11 +62,16 @@
     right: -85px;
     top: -15px;
   }
+  .mainLogo {
+    left: calc(50% - 110px);
+    position: absolute;
+    top: 75px;
+  }
 }
 
 @media (max-width: 425px) {
   .logo {
-    position: absolute;
+    /* position: absolute; */
     top: -90px;
     left: -500px;
     width: 150px;
@@ -78,6 +83,11 @@
     height: 22px;
     right: -90px;
     top: -75px;
+  }
+  .mainLogo {
+    left: calc(50% - 75px);
+    position: absolute;
+    top: 21px;
   }
 }
 

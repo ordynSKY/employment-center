@@ -53,6 +53,9 @@
     width: 300px;
     height: 215px;
   }
+  .card:last-child {
+    margin-right: 0;
+  }
   .cardImage {
     width: 300px;
     height: 150px;
@@ -110,7 +113,7 @@
     font-size: 15px;
     margin-right: 0;
     width: 1000px;
-    margin-left: 150px;
+    margin-left: 100px;
   }
 
   .cardTitle {

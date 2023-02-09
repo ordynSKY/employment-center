@@ -18,7 +18,11 @@ const Examples = () => {
               className={styles.hovered}
             />
             <a href={url} download className={styles.link}>
-              <img src="/svg/download.svg" alt="designer" />
+              <img
+                src="/svg/download.svg"
+                alt="designer"
+                className={styles.svg}
+              />
             </a>
           </div>
           <div className={styles.cardTitle}>Стандартне резюме</div>
@@ -28,7 +32,11 @@ const Examples = () => {
           <div>
             <img src="/images/doc1.png" alt="blog" className={styles.hovered} />
             <a href={url} download className={styles.link}>
-              <img src="/svg/download.svg" alt="designer" />
+              <img
+                src="/svg/download.svg"
+                alt="designer"
+                className={styles.svg}
+              />
             </a>
           </div>
           <div className={styles.cardTitle}>Заява на звільнення</div>
@@ -37,7 +45,11 @@ const Examples = () => {
           <div>
             <img src="/images/doc2.png" alt="blog" className={styles.hovered} />
             <a href={url} download className={styles.link}>
-              <img src="/svg/download.svg" alt="designer" />
+              <img
+                src="/svg/download.svg"
+                alt="designer"
+                className={styles.svg}
+              />
             </a>
           </div>
           <div className={styles.cardTitle}>Витяг з реєстру</div>
@@ -46,7 +58,11 @@ const Examples = () => {
           <div>
             <img src="/images/doc3.png" alt="blog" className={styles.hovered} />
             <a href={url} download className={styles.link}>
-              <img src="/svg/download.svg" alt="designer" />
+              <img
+                src="/svg/download.svg"
+                alt="designer"
+                className={styles.svg}
+              />
             </a>
           </div>
           <div className={styles.cardTitle}>Заява на прийом на роботу</div>

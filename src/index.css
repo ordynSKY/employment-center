@@ -19,7 +19,7 @@ body {
 
 @media (max-width: 1440px) {
   body {
-    width: 1320px;
+    width: 1260px;
     /* margin: 0; */
     display: flex;
     justify-content: center;

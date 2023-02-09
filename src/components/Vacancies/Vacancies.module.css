@@ -57,6 +57,9 @@
     width: 200px;
     height: 200px;
   }
+  .card:last-child {
+    margin-right: 0;
+  }
 }
 
 .card:hover {
@@ -180,5 +183,6 @@
   .allVacancies {
     width: 200px;
     height: 200px;
+    margin-right: 0;
   }
 }

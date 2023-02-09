@@ -41,18 +41,20 @@
 
 @media (max-width: 1440px) {
   .card {
-    width: 1260px;
+    width: 1024px;
+    max-height: 320px;
   }
 }
 
 @media (max-width: 1024px) {
   .card {
-    width: 1060px;
+    width: 1024px;
     height: 300px;
   }
 }
 
 .cardClosed {
+  position: relative;
   width: 1800px;
   height: 114px;
   border: 2px solid #7d7d7d;
@@ -65,7 +67,7 @@
 
 @media (max-width: 1440px) {
   .cardClosed {
-    width: 1260px;
+    width: 1024px;
   }
 }
 
@@ -93,17 +95,36 @@
   margin-bottom: 50px;
 }
 
+.svg {
+  /* position: absolute;
+  right: 45px;
+  top: 90px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%); */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+}
+
 @media (max-width: 1440px) {
   .cardTitle {
-    font-size: 20px;
+    font-size: 18px;
+    padding: 30px 0 20px 30px;
   }
   .cardDescription {
     font-size: 15px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    margin-bottom: 30px;
   }
   .svg {
     display: flex;
     align-items: center;
-    width: 30px;
+    width: 20px;
+    height: 20px;
+    right: 30px;
+    top: 55px;
   }
 }

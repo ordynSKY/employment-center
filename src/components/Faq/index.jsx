@@ -14,28 +14,21 @@ const Faq = () => {
       </div>
       <div className={styles.cardsSection}>
         <article className={styles.card}>
-          <div className={styles.cardTitle}>
-            22 грудня пройде безкоштовний вебінар «Як створювати бізнес під час
-            війни»
+          <div>
+            <div className={styles.cardTitle}>
+              22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
+              час війни»
+            </div>
+            {showDescription && (
+              <div className={styles.cardDescription}>{description}</div>
+            )}
           </div>
-          {showDescription && (
-            <div className={styles.cardDescription}>{description}</div>
-          )}
-          <div
-            style={{
-              position: "absolute",
-              right: 45,
-              top: 160,
-              cursor: "pointer",
-            }}
-            className={styles.svg}
-            onClick={() => setShowDescription(false)}
-          >
+          <div className={styles.svg}>
             <img
               src="/svg/minus.svg"
               alt="fire"
-              style={{ marginLeft: -20 }}
               className={styles.svg}
+              onClick={() => setShowDescription(false)}
             />
           </div>
         </article>
@@ -47,21 +40,12 @@ const Faq = () => {
           {showDescription && (
             <div className={styles.cardDescription}>{description}</div>
           )}
-          <div
-            style={{
-              position: "absolute",
-              right: 45,
-              top: 160,
-              cursor: "pointer",
-            }}
-            className={styles.svg}
-            onClick={() => setShowDescription(false)}
-          >
+          <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
-              style={{ marginLeft: -20 }}
               className={styles.svg}
+              onClick={() => setShowDescription(false)}
             />
           </div>
         </article>
@@ -72,21 +56,12 @@ const Faq = () => {
           {showDescription && (
             <div className={styles.cardDescription}>{description}</div>
           )}
-          <div
-            style={{
-              position: "absolute",
-              right: 45,
-              top: 160,
-              cursor: "pointer",
-            }}
-            className={styles.svg}
-            onClick={() => setShowDescription(false)}
-          >
+          <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
-              style={{ marginLeft: -20 }}
               className={styles.svg}
+              onClick={() => setShowDescription(false)}
             />
           </div>
         </article>
@@ -97,21 +72,12 @@ const Faq = () => {
           {showDescription && (
             <div className={styles.cardDescription}>{description}</div>
           )}
-          <div
-            style={{
-              position: "absolute",
-              right: 45,
-              top: 160,
-              cursor: "pointer",
-            }}
-            className={styles.svg}
-            onClick={() => setShowDescription(false)}
-          >
+          <div className={styles.svg}>
             <img
               src="/svg/plus.svg"
               alt="fire"
-              style={{ marginLeft: -20 }}
               className={styles.svg}
+              onClick={() => setShowDescription(false)}
             />
           </div>
         </article>

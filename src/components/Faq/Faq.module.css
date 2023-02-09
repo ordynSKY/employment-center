@@ -79,6 +79,7 @@
 @media (max-width: 425px) {
   .card {
     width: 300px;
+    height: auto;
     /* max-height: ; */
   }
 }
@@ -168,7 +169,7 @@
 @media (max-width: 425px) {
   .cardTitle {
     font-size: 12px;
-    padding: 15px 0 15px 15px;
+    padding: 30px 30px 30px 30px;
     text-align: center;
   }
   .cardDescription {
@@ -176,7 +177,7 @@
     letter-spacing: 0.1px;
     line-height: 10px;
     margin-bottom: 15px;
-    padding: 0 5px 0 5px;
+    padding: 0 30px 5px 30px;
     text-align: center;
     display: flex;
     justify-content: center;

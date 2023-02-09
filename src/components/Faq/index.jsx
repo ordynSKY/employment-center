@@ -15,7 +15,12 @@ const Faq = () => {
       <div className={styles.cardsSection}>
         <article className={styles.card}>
           <div>
-            <div className={styles.cardTitle}>
+            <div
+              className={styles.cardTitle}
+              onClick={() =>
+                setShowDescription(showDescription === 0 ? null : 0)
+              }
+            >
               22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
               час війни»
             </div>

@@ -219,9 +219,15 @@
   .more {
     margin-top: 0;
   }
-}
-@media (max-width: 425px) {
   .docHovered {
     margin-right: 0;
+  }
+  .cardTitle {
+    width: 400px;
+  }
+}
+@media (max-width: 375px) {
+  .cardTitle {
+    width: 350px;
   }
 }

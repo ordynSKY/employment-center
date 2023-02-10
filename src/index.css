@@ -49,6 +49,10 @@ body {
     width: 400px;
     margin: auto;
   }
+  .main_container {
+    max-width: 400px;
+    margin: auto;
+  }
 }
 @media (max-width: 375px) {
   body {

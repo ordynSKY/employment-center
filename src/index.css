@@ -31,12 +31,13 @@ body {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   body {
-    width: 750px;
-    /* margin: 0; */
-    display: flex;
-    justify-content: center;
+    width: 720px;
+  }
+  .main_container {
+    max-width: 720px;
+    margin: auto;
   }
 }
 
@@ -47,13 +48,25 @@ body {
     display: flex;
     justify-content: center;
   }
-}
-@media (max-width: 425px) {
   section {
     width: 400px;
-    /* margin: 0; */
+    margin: auto;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    width: 350px;
+    margin-left: 35px;
     display: flex;
     justify-content: center;
+  }
+  section {
+    width: 350px;
+    margin: auto;
+  }
+  .main_container {
+    max-width: 350px;
+    margin: auto;
   }
 }
 

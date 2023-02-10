@@ -41,7 +41,12 @@ const Faq = () => {
         </article>
         <article className={styles.card}>
           <div>
-            <div className={styles.cardTitle}>
+            <div
+              className={styles.cardTitle}
+              onClick={() =>
+                setShowDescription(showDescription === 1 ? null : 1)
+              }
+            >
               22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
               час війни»
             </div>
@@ -62,7 +67,12 @@ const Faq = () => {
         </article>
         <article className={styles.card}>
           <div>
-            <div className={styles.cardTitle}>
+            <div
+              className={styles.cardTitle}
+              onClick={() =>
+                setShowDescription(showDescription === 2 ? null : 2)
+              }
+            >
               22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
               час війни»
             </div>
@@ -83,7 +93,12 @@ const Faq = () => {
         </article>
         <article className={styles.card}>
           <div>
-            <div className={styles.cardTitle}>
+            <div
+              className={styles.cardTitle}
+              onClick={() =>
+                setShowDescription(showDescription === 3 ? null : 3)
+              }
+            >
               22 грудня пройде безкоштовний вебінар «Як створювати бізнес під
               час війни»
             </div>

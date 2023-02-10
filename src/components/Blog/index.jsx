@@ -5,10 +5,10 @@ const Blog = () => {
   let buttonLeft = document.getElementById("slideLeft");
 
   buttonRight = function () {
-    document.querySelector(".cardsSection").scrollLeft += 200;
+    document.querySelector(".cards__slider").scrollLeft += 200;
   };
   buttonLeft = function () {
-    document.querySelector(".cardsSection").scrollLeft -= 200;
+    document.querySelector(".cards__slider").scrollLeft -= 200;
   };
 
   return (
@@ -17,7 +17,7 @@ const Blog = () => {
         Новини
         <img src="/svg/blogvector.svg" alt="fire" className={styles.titleSvg} />
       </div>
-      <div className={styles.cardsSection}>
+      <div className={`${styles.cardsSection} cards__slider`}>
         <article className={styles.card}>
           <div>
             <img
@@ -64,6 +64,7 @@ const Blog = () => {
         <img
           src="/svg/ArrowLeft.svg"
           alt="fire"
+          id="slideLeft"
           className={styles.arrows}
           onClick={buttonLeft}
         />
@@ -72,6 +73,7 @@ const Blog = () => {
           src="/svg/ArrowRight.svg"
           alt="fire"
           className={styles.arrows}
+          id="slideRight"
           onClick={buttonRight}
         />
       </div>

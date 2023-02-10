@@ -31,6 +31,13 @@
   }
 }
 
+@media (max-width: 375px) {
+  .section {
+    margin-top: 20px;
+    width: 350px;
+  }
+}
+
 .titleSvg {
   margin-left: 25px;
 }
@@ -49,18 +56,40 @@
 
 .cardsSection {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  width: 1920px;
+  height: 510px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  align-items: center;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 1440px) {
   .cardsSection {
-    flex-wrap: wrap;
+    width: 900px;
+    height: 250px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsSection {
+    width: 700px;
+    height: 250px;
+    margin: auto;
   }
 }
 
 @media (max-width: 425px) {
   .cardsSection {
     display: grid;
+    width: 305px;
+    height: 230px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    scroll-behavior: auto;
   }
 }
 
@@ -80,7 +109,7 @@
 @media (max-width: 1440px) {
   .card {
     width: 300px;
-    height: 215px;
+    height: 227px;
   }
   .card:last-child {
     margin-right: 0;
@@ -104,7 +133,7 @@
 .more {
   display: flex;
   justify-content: space-between;
-  margin: 58px 53px 0 0;
+  margin: 58px 0 0 0;
   font-family: "DniproCity";
   font-style: normal;
   font-weight: 400;
@@ -150,8 +179,8 @@
     margin-top: 25px;
     font-size: 15px;
     margin-right: 0;
-    width: 1000px;
-    margin-left: 100px;
+    width: 900px;
+    margin-left: 160px;
   }
 
   .cardTitle {
@@ -168,6 +197,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .more {
+    margin-left: 0;
+    width: 700px;
+  }
+}
+
 @media (max-width: 425px) {
   .more {
     display: block;
@@ -176,5 +212,13 @@
   }
   .arrows {
     display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .more {
+    display: block;
+    margin: 0;
+    width: 350px;
   }
 }

@@ -10,7 +10,7 @@ const Footer = () => {
           className={styles.logoFooter}
         />
         <div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div className={styles.blockFooter}>
             <a href="" className={styles.footer}>
               Створити вакансію
             </a>
@@ -28,7 +28,7 @@ const Footer = () => {
               Приклади документів
             </a>
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div className={styles.blockFooter}>
             <img src="/svg/phone.svg" alt="fire" className={styles.svg} />
 
             <a href="tel:+3809878526" className={styles.footerNum}>

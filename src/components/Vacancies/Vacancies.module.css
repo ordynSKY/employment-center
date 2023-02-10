@@ -60,6 +60,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .cardsSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
+
 @media (max-width: 425px) {
   .cardsSection {
     display: grid;
@@ -87,6 +95,12 @@
   }
   .card:last-child {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 160px;
   }
 }
 
@@ -121,6 +135,18 @@
   .svg {
     width: 25px;
     height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+  .svg {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -170,6 +196,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .cardTitle {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+
 /* @media (max-width: 425px) {
   .cardTitle,
   .more {
@@ -196,6 +229,13 @@
   .cardDescription {
     font-size: 20px;
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardDescription {
+    font-size: 16px;
+    margin-top: 15px;
   }
 }
 
@@ -229,6 +269,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .cardHovered {
+    width: 200px;
+    height: 160px;
+  }
+}
+
 @media (max-width: 425px) {
   .cardHovered {
     margin: 0;
@@ -256,6 +303,13 @@
     width: 200px;
     height: 200px;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .allVacancies {
+    width: 200px;
+    height: 160px;
   }
 }
 

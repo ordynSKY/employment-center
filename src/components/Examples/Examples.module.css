@@ -55,6 +55,12 @@
   justify-content: space-around;
 }
 
+@media (max-width: 768px) {
+  .cardsSection {
+    display: grid;
+  }
+}
+
 @media (max-width: 425px) {
   .cardsSection {
     display: grid;

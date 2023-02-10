@@ -102,25 +102,26 @@
 }
 
 @media (max-width: 425px) {
-  .modal {
+  .modal__content {
     width: 350px;
     height: 120px;
     margin-bottom: 70px;
   }
-  .modal__content {
-    width: 300px;
-    height: 100px;
-    margin-bottom: 70px;
-  }
   .title {
-    font-size: 15px;
-    margin-bottom: 25px;
+    font-size: 10px;
+    margin: 0;
+    line-height: 17px;
+    margin-bottom: 10px;
   }
   .email,
   .password,
   .button__register {
-    font-size: 15px;
-    width: 200px;
-    height: 40px;
+    font-size: 10px;
+    width: 90px;
+    height: 25px;
+  }
+  .button__register {
+    border: 1px solid #103778;
+    height: 30px;
   }
 }
